@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en, pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite HTML CSS </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+
+    <!--========== HEADER ==========-->
+    <header class="header">
+        <div class="header__container">
+            <!-- <img src="" alt="" class="header__img"> -->
+
+            <a href="#" class="header__logo">Guilherme</a>
+
+            <div class="header__search">
+                <input type="search" placeholder="Search" class="header__input">
+                <i class='bx bx-search header__icon'></i>
+            </div>
+
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--========== NAV ==========-->
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
+                <a href="#home" class="nav__link nav__logo">
+                    <box-icon name='laptop'></box-icon>
+                    <span class="nav__logo-name">Guilherme</span>
+                </a>
+    
+                <div class="nav__list">
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Profile</h3>
+    
+                        <a href="#home" class="nav__link active">
+                            <i class='bx bx-home nav__icon'></i>
+                            <span class="nav__name">Home</span>
+                        </a>
+    
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">Summary</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+    
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#dev" class="nav__dropdown-item">Desenvolvimento Web</a>
+                                    <a href="#tecnologias" class="nav__dropdown-item">Principais Tecnologias</a>
+                                    <a href="#codigo" class="nav__dropdown-item">Editores de Código</a>
+                                    <a href="#hospedagem" class="nav__dropdown-item">Hospedagem de Sites</a>
+    
+                                </div>
+                            </div>
+                        </div>
+    
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-message-rounded nav__icon'></i>
+                            <span class="nav__name">About Us</span>
+                        </a>
+                    </div>
+    
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Menu</h3>
+    
+                       
+    
+                        <a href="#dicas" class="nav__link">
+                            <i class='bx bx-compass nav__icon'></i>
+                            <span class="nav__name">Dicas - Carreira</span>
+                        </a>
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-bookmark nav__icon'></i>
+                            <span class="nav__name">Contact</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <a href="#" class="nav__link nav__logout">
+                <i class='bx bx-log-out nav__icon'></i>
+                <span class="nav__name">Log Out</span>
+            </a>
+        </nav>
+    </div>
+
+
+    <!---------- Home - Section ------------>
+
+    <section id="home" class="home">
+
+        <nav class="home-content">
+            <h1>Guilherme Cosme dos Santos</h1>
+
+            <h3>Desenvolvimento Web Front-End</h3>
+
+            <p>Hoje tive a oportunidade de criar um projeto de faculdade incrível que envolveu a integração do Chat GPT para extrair parte do conteúdo que esta incluso na página. <br> Este projeto me permitiu explorar a é estudar um pouco mas sobre as linguagens de Desenvolvimento Web HTML 5, CSS 3 e JavaScript.</p>
+
+            <a href="https://chat.openai.com/" target="_blank" class="btn">Chat GPT</a>
+        </nav>
+
+        <nav class="home-img">
+            <nav class="photo-gui">
+                <img src="#" alt="">
+            </nav>
+        </nav>
+
+    </section>
+
+<!---------- About - Section ------------>
+
+<section class="about" id="about">
+
+        <nav class="about-img">
+
+            <img src="#" alt="">
+        </nav>
+
+        
+
+        <nav class="about-section">
+            <h2 class="allheading">About <span class="spanheading">Us</span></h2>
+            
+            
+                <h3>Font-End Developer</h3>
+                <p>Olá, sou Desenvolvedor Web, apaixonado por conhecimentos tecnológicos básicos e avançados que me faz adquirir mais conhecimento. Sou novo nesta área mas com muita persistência serei o melhor no meu trabalho.</p>
+                <a href="https://devguii.vercel.app/" class="btn-1" target="_blank">Read More</a>
+
+        </nav>
+    
+
+
+</section>
+
+
+<!---------- Summary ------------>
+
+<section id="dev"  class="resume reusable ">
+
+    <header class="headings">
+        <h3>Summary</h3>
+        <h1>Desenvolvimento Web Front-End</h1>
+        <p>Uma disciplina essencial no mundo da criação de websites e aplicações web. É a área responsável por projetar e desenvolver a interface do usuário (UI) de forma atraente, intuitiva e responsiva.</p>
+
+    </header>
+
+    <!-- ========== Headings Text Ends =========== -->
+
+    <!-- ========== Resume Row Starts =========== -->
+
+    <div class="resume-row">
+        <!-- ====== Left Column Starts ======== -->
+        <div class="column column-left">
+            <header class="sub-heading ">
+                <h2>EDUCATION</h2>
+            </header>
+
+            <main class="resume-contents">
+                <div class="box">
+                    <!-- <h4>2022 - 2023</h4> -->
+                    <h3>O que e Desenvolvimento Web?</h3>
+                    <p>O desenvolvimento web é uma disciplina que engloba a criação, design e implementação de sites, aplicativos e sistemas interativos acessados por meio da internet.</p>
+                    <a href="#"><h5 class="vanue" >North Euro University</h5></a>
+                </div>
+
+                <div class="box">
+                    <!-- <h4>2022 - 2023</h4> -->
+                    <h3>O que faz um Desenvolvedor Web?</h3>
+                    <p>Um desenvolvedor web é um profissional que cria e mantém sites e aplicativos para a internet.</p>
+                    <a href="#"><h5 class="vanue" >North Euro University</h5></a>
+                </div>
+
+                <div class="box">
+                    <!-- <h4>2022 - 2023</h4> -->
+                    <h3>O que é um desenvolvedor Web Full-Stack?</h3>
+                    <p>Um desenvolvedor web full-stack é um profissional que possui conhecimentos e habilidades tanto no desenvolvimento.</p>
+                    <a href="#"><h5 class="vanue" >North Euro University</h5></a>
+                </div>
+
+            </main>
+        </div>
+        <!-- ====== Left Column Ends ======== -->
+
+        <!-- ===== Right Column Starts ======= -->
+        <div class="column column-right">
+            <header class="sub-heading">
+                <h2>INFORMATION</h2>
+            </header>
+
+            <main class="resume-contents">
+                <div class="box">
+                    <!-- <h4>2022 - 2023</h4> -->
+                    <h3>O que significa Front-End e Back-End?</h3>
+                    <p>O front-end pode ser definido como a profissão que cuida da apresentação de um site. </p>
+                    <a href="#"><h5 class="vanue" >North Euro University</h5></a>
+                </div>
+
+                <div class="box">
+                    <!-- <h4>2022 - 2023</h4> -->
+                    <h3>Desenvolvimento Front-End</h3>
+                    <p>O front-end se refere à parte da aplicação ou site com a qual os usuários interagem diretamente. </p>
+                    <a href="#"><h5 class="vanue" >North Euro University</h5></a>
+
+                </div>
+
+                <div class="box">
+                    <!-- <h4>2022 - 2023</h4> -->
+                    <h3>Desenvolvimento Back-End</h3>
+                    <p>O back-end é a parte do sistema que lida com a lógica de negócios, o processamento de dados e a interação com os bancos de dados.</p>
+                    <a href="#"><h5 class="vanue" >North Euro University</h5></a>
+                </div>
+                
+            </main>
+        </div>
+        <!-- ===== Right Column Ends ======= -->
+
+    </div>
+    <!-- ========== Resume Row Ends =========== -->
+
+</section>
+
+
+<!--   *** Tecnologias Section Starts ***   -->
+<section class="services reusable" id="tecnologias">
+	
+	<!--   === Headings Text Starts ===   -->
+	<header class="headings">
+		<h3>Linguagem</h3>
+		<h1>Principais Tecnologias </h1>
+		<p>Essas Tecnologias formam o núcleo do desenvolvimento web moderno, possibilitando a criação de experiências online atraentes e funcionais para os usuários.</p>
+	</header>
+	<!--   === Headings Text Ends ===   -->
+
+	<!--   === Tecnologias Box Container Starts ===   -->
+	<div class="services-container">
+		
+		<div class="service-box">
+			<div class="icon-wrapper">
+				<img src="img/html.png" alt="">
+			</div>
+			<h2>HTML 5</h2>
+			<p>O HTML5 é a quinta versão da linguagem de marcação usada para criar e estruturar páginas da web. Ele introduziu uma série de recursos novos, como elementos semânticos que descrevem melhor o conteúdo (como header, nav, article, etc.).</p>
+			<a href="https://www.w3schools.com/html/" class="btn-service" target="_blank">Read More</a>
+		</div>
+
+		<div class="service-box">
+			<div class="icon-wrapper">
+				<img src="img/css-3.png" alt="">
+			</div>
+			<h2>CSS 3</h2>
+			<p>O CSS3 é a terceira iteração das folhas de estilo em cascata, que são usadas para controlar a apresentação e o design das páginas da web escritas em HTML. Ele expandiu significativamente as possibilidades de design.</p>
+			<a href="https://www.w3schools.com/css/" class="btn-service" target="_blank">Read More</a>
+		</div>
+
+		<div class="service-box">
+			<div class="icon-wrapper">
+				<img src="img/js.png" alt="">
+			</div>
+			<h2>Java Script</h2>
+			<p>O JavaScript é uma linguagem de programação amplamente utilizada para adicionar interatividade e dinamismo às páginas da web e permite que os desenvolvedores criem funcionalidades como validação de formulários.</p>
+
+            <a href="https://www.w3schools.com/js/" class="btn-service" target="_blank">Read More</a>
+		</div>
+
+	</div>
+	<!--   ===  Box Container Ends ===   -->
+</section>
+
+    <!--   === Categories Starts ===   -->
+    <section class="categories" id="codigo">
+        <div class="heading">
+            <h1>Editores de Códigos <br><span>Populares</span></h1>
+            <a href="" class="btn">See All</a>
+        </div>
+
+    <!--   === Categories Content ===   -->   
+     
+     <div class="categories-container">
+
+        <!-- =======BOX - 1 ======= -->
+        <div class="box box1">
+            <img src="img/vscode_fill_icon.png" alt="">
+            <h2>Vs Code</h2>
+            <span>Install</span>
+            <a href="https://code.visualstudio.com/" target="_blank" ><i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+    
+        <!-- =======BOX - 2 ======= -->
+        <div class="box box2">
+            <img src="img/sublime_icon.png" alt="">
+            <h2>Sublime Text</h2>
+            <span>Install</span>
+            <a href="https://www.sublimetext.com/" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+
+        <!-- =======BOX - 3 ======= -->
+        <div class="box box3">
+            <img src="img/atom_icon.png" alt="">
+            <h2>Atom</h2>
+            <span>Install</span>
+            <a href="https://github.com/atom/atom" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+
+        <!-- =======BOX - 4 ======= -->
+        <div class="box box4">
+            <img src="img/webstorm_icon.png" alt="">
+            <h2>Web Strom</h2>
+            <span>Install</span>
+            <a href="https://www.jetbrains.com/webstorm/promo/?source=google&medium=cpc&campaign=9641686251&term=webstorm&content=523833970790&gad=1&gclid=CjwKCAjwloynBhBbEiwAGY25dDuQuyg0VqCksHrN_MQiaMeEOKXLdYcwTTbvVipO2yR7VrzP5cKsQBoCuBQQAvD_BwE" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+
+        <!-- =======BOX - 5 ======= -->
+        <div class="box box5">
+            <img src="img/phpstorm_icon.png" alt="">
+            <h2>PHP Storm</h2>
+            <span>Install</span>
+            <a href="https://www.jetbrains.com/phpstorm/" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+
+        <!-- =======BOX - 6 ======= -->
+        <div class="box box6">
+            <img src="img/notepad_icon.png" alt="">
+            <h2>Notepad++</h2>
+            <span>Install</span>
+            <a href="https://notepad-plus-plus.org/downloads/" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+
+     </div>
+    </section>
+    <!--   === Categories End ===   -->
+
+
+
+
+
+
+     <!--   === Hospedagem Starts ===   -->
+        <section class="categories-hospedagem" id="hospedagem">
+            <div class="heading-hospedagem">
+                <h1>Hospedagem de Sites <br><span>Estáticos</span></h1>
+                
+            </div>
+    
+        <!--   === Categories Content ===   -->   
+         
+         <div class="categories-container">
+    
+            <!-- =======BOX - 1 ======= -->
+            <div class="box box1 box-1">
+                <img src="img/github_icon.png" alt="">
+                <h2></h2>
+                <span></span>
+                <a href="https://pages.github.com/" target="_blank" ><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+        
+            <!-- =======BOX - 2 ======= -->
+            <div class="box box2 box-2">
+                <img src="img/gitlab_icon.png" alt="">
+                <h2></h2>
+                <span></span>
+                <a href="https://docs.gitlab.com/ee/user/project/pages/" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+    
+            <!-- =======BOX - 3 ======= -->
+            <div class="box box3 box-3">
+                <img src="img/logo-purple.png" alt="">
+                <h2></h2>
+                <span></span>
+                <a href="https://www.infinityfree.com/" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+    
+            <!-- =======BOX - 4 ======= -->
+            <div class="box box4 box-4">
+                <img src="img/vercel_icon.png " alt="">
+                <h2></h2>
+                <span></span>
+                <a href="https://vercel.com/dashboard" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+    
+            <!-- =======BOX - 5 ======= -->
+            <div class="box box5 box-5">
+                <img src="img/bitbucket_icon.png" alt="">
+                <h2></h2>
+                <span></span>
+                <a href="https://bitbucket.org/product?&aceid=&adposition=&adgroup=146041754871&campaign=18815940184&creative=632894031357&device=c&keyword=bitbucket&matchtype=e&network=g&placement=&ds_kids=p74128568887&ds_e=GOOGLE&ds_eid=700000001551985&ds_e1=GOOGLE&gad=1&gclid=Cj0KCQjwmvSoBhDOARIsAK6aV7ioRaNd4hU04pEWyXtKUCeQeHVsNYTpbrbZ1uXB5xKH5KjqbTUnZ6waAh6QEALw_wcB&gclsrc=aw.ds" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+    
+            <!-- =======BOX - 6 ======= -->
+            <div class="box box6 box-6">
+                <img src="img/surge-logo.svg" alt="">
+                <h2></h2>
+                <span></span>
+                <a href="https://surge.sh/" target="_blank"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+    
+         </div>
+        </section>
+
+        <section class="about" id="dicas">
+
+    
+    
+            <nav class="about-section">
+                <h2 class="allheading">Dicas para Iniciar Carreira <span class="spanheading"> de Desenvolvedor Web</span></h2>
+                
+                
+                    <h3>Desenvolvedor web</h3>
+                    <p>Pronto para decolar na sua carreira de desenvolvedor web? Este link é a chave para o seu sucesso! Descubra dicas valiosas que vão impulsionar o seu crescimento profissional e abrir portas incríveis no mundo da programação. Clique agora e comece a construir o futuro que você merece! 💻</p>
+                    <a href="dicas.html" target="_blank" class="btn-1">Click here</a>
+    
+            </nav>
+        
+    
+    
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="container-item">
+                <div class="contact-x"> 
+                    <div class="first-text">
+                        Let's Get in Touch
+                        <!-- <img src="" alt="" class="image"> -->
+                        <div class="social-links">
+                            <span class="second-text">Conect with us: </span>
+                            <ul class="social-media">
+                                <li><a href="#"><i class='bx bxl-github' ></i></a></li>
+
+                                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+
+                                <li><a href="#"><i class='bx bxl-linkedin' ></i></a></li>
+
+                                <li><a href="#"><i class='bx bxl-discord' ></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="submit-form">
+                    <h4 class="third-text text">Contact Us</h4>
+                    <form action="">
+                        <div class="input-box">
+                            <input type="text" class="input" required>
+                            <label for="">Name</label>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="email" class="input"  required >
+                            <label for="">E-mail</label>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="tel" class="input" required>
+                            <label for="">Phone</label>
+                        </div>
+
+                        <div class="input-box">
+                            <textarea name="" class="input"  required  id="message" cols="30" rows="10"></textarea>
+                            <label for="">Message</label>
+                        
+                        </div>
+                        <input type="submit" class="btn-form" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+
+        
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
